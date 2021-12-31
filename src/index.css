@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header{
+  background: url('./img/backgrounds/header_background2.jfif');
+  background-attachment: fixed;
+  background-size: cover;
+  height: 210px;
+  display: flex;
+  padding: 20px;
+  padding-top: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+img{
+  width:500px;
+  height:500px;
+}
+
+.right{
+  width: 100%;
+  float: right;
+}
+
+header .headerTitle{
+  width: 50%;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+header .headerContent{
+  float: right;
+  margin-top: 35px;
+}
+
+.headerContent p{
+  margin: 5px;
+  font-weight: bold;
+}
+
+.container{
+  margin-top: 250px;
+  display: flex;
+}
+
+h2{
+  margin-bottom: 0;
+}
+
+h3{
+  margin-top: 0;
+}
+
+.section{
+  width:150%;
+  border-right: 5px;
+  border-color: rgb(54, 223, 194);
+  border-style: dashed;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  padding-right: 5px;
+  margin-bottom: 55px;
+}
+
+.surrender{
+  height: 5px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.titles{
+  width:75%;
+  text-align: center;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-color: aquamarine;
+  margin-top: 12px;
+  color: aquamarine;
+}
+
+.vitrine{
+  display: flex;
+  margin-left: 25px;
+}
+
+.vitrine *{
+  margin-left: 25px;
+}
+
+.sideTitles{
+  width:100%;
+  text-align: center;
+  margin-top: 50px;
+  color: aquamarine;
+}
+
+.sidebar{
+  padding-left: 15px;
+}
+
+footer{
+  color: aqua;
+  width: 100%;
+  background-color:rgb(29, 51, 48);
+  position:fixed;
+  bottom: 0;
+}
+
+
+@media screen and (max-width: 780px) {
+  header{
+    height: 618px;
+    display: block;
+    position: relative;
+  }
+  .container{
+    margin-top: 0px;
+  }
+}
